@@ -129,7 +129,7 @@ main.method2ProcessNDidits = function(strDummyNumber, numLength, numStartingWith
 
     if (numLength == 1) {
         console.log(strDummyNumber, numLength, numStartingWith, isScope, finalArrResults);
-        tmpResults = [8];
+        tmpResults = [10];
         util.mergerArrays(finalArrResults, tmpResults);
 
         console.log('add digit before num, reset numStartingWith & call me again');
@@ -242,7 +242,7 @@ main.getRanges = function(exp) {
         if (i == 1) {
             arrRanges.push(['10', '10']);
         } else {
-            arrRanges.push(['1' + '0'.repeat(i - 1), '8'.repeat(i)]);
+            arrRanges.push(['1' + '0'.repeat(i - 1), '10'.repeat(i)]);
         }
     };
     return arrRanges;
