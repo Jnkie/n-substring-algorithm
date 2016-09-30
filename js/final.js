@@ -74,9 +74,9 @@ main.getRanges = function(exp) {
     var arrRanges = [];
     for (var i = 1; i <= exp; i++) {
         if (i == 1) {
-            arrRanges.push(['8', '8']);
+            arrRanges.push(['10', '10']);
         } else {
-            arrRanges.push(['1' + '0'.repeat(i - 1), '8'.repeat(i)]);
+            arrRanges.push(['1' + '0'.repeat(i - 1), '10'.repeat(i)]);
         }
     };
     return arrRanges;
