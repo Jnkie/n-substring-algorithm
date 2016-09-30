@@ -3,7 +3,7 @@ var main = main || {
     dummyReplacer: 'X',
     methodUsed: '1',
     numTo: 0,
-    sumToCheck: 8,
+    sumToCheck: 10,
     tempArrResults: {}
 };
 
