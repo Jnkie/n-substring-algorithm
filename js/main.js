@@ -3,7 +3,7 @@ var main = main || {
     dummyReplacer: 'X',
     methodUsed: '1',
     numTo: 0,
-    sumToCheck: 8,
+    sumToCheck: 10,
     tempArrResults: {}
 };
 
@@ -240,7 +240,7 @@ main.getRanges = function(exp) {
     var arrRanges = [];
     for (var i = 1; i <= exp; i++) {
         if (i == 1) {
-            arrRanges.push(['8', '8']);
+            arrRanges.push(['10', '10']);
         } else {
             arrRanges.push(['1' + '0'.repeat(i - 1), '8'.repeat(i)]);
         }
